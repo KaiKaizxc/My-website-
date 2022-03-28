@@ -9,7 +9,8 @@
   --title-color: hsl(var(--hue-Color), 20%, 30%);
   --text-color: hsl(var(--hue-Color), 20%, 25%);
   --text-color-lighter: hsl(var(--hue-Color), 85%%, 10%);
-  --container-color: linear-gradient(to right, #ece9e6, #ffffff);
+  /* --container-color: linear-gradient(to right, #ece9e6, #ffffff); */
+  --container-color: seashell;
   --body-color: -webkit-linear-gradient(
     to right,
     #757f9a,
@@ -652,6 +653,10 @@ img {
   width: 50%;
 }
 
+.skills__solidity {
+  width: 10%;
+}
+
 .skills__close .skills__list {
   height: 0;
   overflow: hidden;
@@ -742,6 +747,13 @@ img {
   display: block;
 }
 
+.qualification__button {
+  transition: 250ms ease;
+}
+.qualification__button:hover {
+  transform: translateY(-10%);
+}
+
 /* ======================================= my works ======================================= */
 
 .porfolio__container {
@@ -750,6 +762,10 @@ img {
 
 .portfolio__content {
   padding: 0 1.5rem;
+}
+
+.image__wrapper {
+  justify-self: center;
 }
 
 .portfolio__img {
@@ -775,4 +791,12 @@ img {
 
 .portfolio__button:hover .button__icon {
   transform: translateX(0.25rem);
+}
+
+/* =================================== CONTACT PAGE ============================== */
+
+.contact__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
