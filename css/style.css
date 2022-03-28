@@ -741,3 +741,38 @@ img {
 .qualification__active[data-content] {
   display: block;
 }
+
+/* ======================================= my works ======================================= */
+
+.porfolio__container {
+  overflow: initial;
+}
+
+.portfolio__content {
+  padding: 0 1.5rem;
+}
+
+.portfolio__img {
+  width: 265px;
+  border-radius: 1rem;
+  justify-self: center;
+  transition: 250ms ease;
+}
+
+.portfolio__img:hover {
+  transform: translateY(10%);
+  filter: brightness(50%);
+}
+
+.portfolio__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.portfolio__description {
+  margin-bottom: var(--mb-0-75);
+}
+
+.portfolio__button:hover .button__icon {
+  transform: translateX(0.25rem);
+}

@@ -5,7 +5,9 @@
     <script src="https://kit.fontawesome.com/3d532c4877.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <link rel="stylesheet" href="../fonts/fontawesome/all.css"> -->
+    
+    <link rel="stylesheet" href= "/css/swiper-bundle.min.css">
+
     <link rel="stylesheet" href="/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
@@ -15,6 +17,7 @@
     
 
     <title>Kai's web</title>
+    <script src="/js/swiper-bundle.min.js" defer></script>
     <script src="/js/app.js" defer></script>
 </head>
 
@@ -61,8 +64,8 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#services" class="nav__link nav__icon">
-                            04.  Services
+                        <a href="#works" class="nav__link nav__icon">
+                            04.  Projects
                         </a>
                     </li>
                     <li class="nav__item">
@@ -490,9 +493,74 @@
 
 
         <!-- =========================================== PORTFOLIO ============================================== -->
-        <section class = "portfolio section" id = "portfolio">
+        <section class = "portfolio section" id = "works">
             <h2 class = "section__title">Porfolio</h2>
             <span class = "section__subtitle">Most recent work</span>
+
+            <div class = "portfolio__container container swiper mySwiper">
+                <div class = "swiper-wrapper">
+                    <!-- =========================================== PORTFOLIO 1============================================== -->
+                    <div class = "portfolio__content grid swiper-slide">
+                        <img src = "assets/WorkflowBoard.JPG" alt = "KB-board" class = "portfolio__img">
+                        <div class = "portoflio__data">
+                            <h3 class = "portfolio__title">Kanban Board</h3>
+                            <p class = "portfolio__description">To keep track of daily tasks, doing and ensure productivity!</p>
+                            <a href = "#" class = "button button--flex button--small portfolio__button">
+                                More works
+                                <i class="fa-solid fa-terminal button__icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!-- =========================================== PORTFOLIO 2============================================== -->
+                    <div class = "portfolio__content grid swiper-slide">
+                        <img src = "assets/WorkflowBoard.JPG" alt = "KB-board" class = "portfolio__img">
+                        <div class = "portoflio__data">
+                            <h3 class = "portfolio__title">Kanban Board</h3>
+                            <p class = "portfolio__description">To keep track of daily tasks, doing and ensure productivity!</p>
+                            <a href = "#" class = "button button--flex button--small portfolio__button">
+                                More works
+                                <i class="fa-solid fa-terminal button__icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!-- =========================================== PORTFOLIO 3============================================== -->
+                    <div class = "portfolio__content grid swiper-slide">
+                        <img src = "assets/WorkflowBoard.JPG" alt = "KB-board" class = "portfolio__img">
+                        <div class = "portoflio__data">
+                            <h3 class = "portfolio__title">Kanban Board</h3>
+                            <p class = "portfolio__description">To keep track of daily tasks, doing and ensure productivity!</p>
+                            <a href = "#" class = "button button--flex button--small portfolio__button">
+                                More works
+                                <i class="fa-solid fa-terminal button__icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!-- =========================================== PORTFOLIO 4============================================== -->
+                    <div class = "portfolio__content grid swiper-slide">
+                        <img src = "assets/WorkflowBoard.JPG" alt = "KB-board" class = "portfolio__img">
+                        <div class = "portoflio__data">
+                            <h3 class = "portfolio__title">Kanban Board</h3>
+                            <p class = "portfolio__description">To keep track of daily tasks, doing and ensure productivity!</p>
+                            <a href = "#" class = "button button--flex button--small portfolio__button">
+                                More works
+                                <i class="fa-solid fa-terminal button__icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "swiper-button-next button__icon"></div>
+                <div class = "swiper-button-prev button__icon"></div>
+
+                <div class = "swiper-pagination"></div>
+            </div>
 
         </section>
     </main>
