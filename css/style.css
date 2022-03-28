@@ -478,13 +478,14 @@ img {
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
-  transition: 1s ease;
+  transition: 0.5s ease-in-out;
 }
 
 .button:hover {
   background: linear-gradient(to right, #ece9e6, #ffffff);
   color: var(--first-Color);
-  transition: 1s ease;
+  transition: 250ms ease;
+  transform: translateY(-20%);
 }
 
 .button__icon {
@@ -731,4 +732,12 @@ img {
   height: 100%;
   background-color: var(--first-Color);
   transform: translate(6px, -7px);
+}
+
+.qualification [data-content] {
+  display: none;
+}
+
+.qualification__active[data-content] {
+  display: block;
 }
